@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>강상원</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href='style.css'>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+        <link rel="icon" href="./files/kevink1113.png">
+        
+        <style>
+        </style>
+
+    </head>
+
+    <body>
+        <div class="top_bar"><a href="index.html">⌘</a></div>
+        <div class="top_menu">
+            <ul class="top_links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Career">Career</a></li>
+                <li><a href="#Contacts">✆ Contacts</a></li>
+            </ul>
+        </div>
+
+        <div class="main_text">
+
+            <div class="img" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url(./files/back4_3.png)">
+                <div class="section" id="About" style="min-height: 0;">
+                        <div class= "text">
+                            <div class="title" style="text-shadow: 0 0 0">Stay hungry.<br>Stay foolish.</div>
+
+
+
+                            <div id="stay_kr">
+                                <br>'현실에 안주하지 않고 미래를 향해 우직하게 나아가자'를<br>
+                                삶의 모토로 삼고 있습니다.<br><br>
+                                초심을 잃지 않고 오늘보다 더 나은 나, 그리고 사회를 가꾸고자 합니다.<br><br><br>
+                            </div>
+
+                            <div class="heading" id="name">강상원<br>SANGWON KANG<br><br></div>
+                            
+                            <div id="name">Computer Scientist & Artist<br>서강대학교 컴퓨터공학과 학부 재학 중</div>
+                            
+                            <script>
+                                var startTime = Date.parse('2000-11-13T11:50:00.000+09:00');
+                                var finishTime = Date.parse('2022-05-29T00:00:00.000+09:00');
+                                var currentTime = Date.now();
+                                var leftTime = (finishTime - currentTime);
+
+                                var elapsedTime = (currentTime - startTime);
+
+                                function loop() {
+                                    setTimeout(function () {
+                                        currentTime = Date.now();
+                                        leftTime = (finishTime - currentTime);
+                                        progress = Math.min(1, 1 - (leftTime) / (finishTime - startTime));
+                                        elapsedTime = (currentTime - startTime);
+                                        
+                                        document.querySelector("#progress_long").innerText = (elapsedTime / 1000 / 60 / 60 / 24).toFixed(1) + "일째 숨쉬는 중";
+
+                                        loop();
+                                    }, 30);
+                                }
+                                loop();
+                            </script>
+
+                            <p id="name">
+                                <span id="progress" class="tabular">
+                                    <span id="progress_long"></span>
+                                </span>
+                            </p>
+
+                        </div>
+                        
+                </div>
+            </div>
+
+            <div class="img" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url(./files/macbook_flower_2.png)">
+                <div class="section" id="Career" style="text-shadow: 2px 2px 10px white; min-height: 0;">
+                    <div class="text">
+                        <div class="mini_title">Career</div>
+
+                        <a href="http://dan-kook.sen.hs.kr/" target="_blank" title="단대부고 홈피" style="font-weight: 500">단국대학교사범대학부속고등학교</a><br>
+                        2016. 3 - 2019. 2<br><br>
+
+                        <a href="http://cs.sogang.ac.kr" target="_blank" title="서강대학교 컴퓨터공학과 홈피" style="font-weight: 500">서강대학교 컴퓨터공학과</a> 학부과정<br>
+                        2019. 3 - 현재<br>
+                        4학기 이수 예정<br><br>
+
+                        <a href="https://acm.sogang.ac.kr/" target="_blank" title="Sogang ICPC Team" style="font-weight: 500">Sogang ICPC Team</a> - 컴퓨터공학과 학부 소학회, 서강대학교<br>
+                        임원(총무), 2020. 1 - 현재<br>
+                        학회원, 2019. 3 - 현재<br><br>
+
+                        <a href="http://release.sogang.ac.kr/" target="_blank" title="Release" style="font-weight: 500">Release</a> - 컴퓨터공학과 학부 소학회, 서강대학교<br>
+                        학회원, 2019. 9 - 현재<br>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="section" id="Contacts" style="min-height: 0;">
+                <div class="text">
+                    <div class="mini_title">Contacts</div>
+                    <div class="links-container">
+                        <a data-name="kevink1113" data-domain="hanmail" data-tld="net" onclick="window.location.href = &#39;mailto:&#39; + this.dataset.name + &#39;@&#39; + this.dataset.domain + &#39;.&#39; + this.dataset.tld" class="link">
+                            <div class="link-icon">
+                                <img src="./files/mail.svg" alt="mail">
+                            </div>
+                            <p>
+                                <b>Mail</b><br>
+                                kevink1113<br>@hanmail.net
+                            </p>
+                        </a>
+                        
+                        <a href="https://www.facebook.com/kevink1113" class="link" target="_blank">
+                            <div class="link-icon">
+                                <img src="./files/facebook.svg" alt="facebook">
+                            </div>
+                            <p>
+                                <b>Facebook</b><br>
+                                kevink1113
+                            </p>
+                        </a>
+
+                        <a href="https://instagram.com/sangwon_1113" class="link" target="_blank">
+                            <div class="link-icon">
+                                <img src="./files/instagram.svg" alt="instagram" id="insta">
+                            </div>
+                            <p>
+                                <b>Instagram</b><br>
+                                sangwon_1113
+                            </p>
+                        </a>
+
+                        <a href="https://github.com/kevink1113" class="link" target="_blank">
+                            <div class="link-icon">
+                                <img src="./files/github.svg" alt="github">
+                            </div>
+                            <p>
+                                <b>GitHub</b><br>
+                                kevink1113
+                            </p>
+                        </a>
+                        
+                        
+                        <a href="https://www.acmicpc.net/user/kevink1113" class="link" target="_blank">
+                            <div class="link-icon">
+                                <img src="./files/boj.svg" alt="boj">
+                            </div>
+                            <p>
+                                <b>Baekjoon OJ</b><br>
+                                kevink1113
+                            </p>
+                        </a>
+
+                        <a href="https://solved.ac/profile/kevink1113" class="link" target="_blank">
+                            <div class="link-icon">
+                                <img src="./files/solvedac.svg" alt="solvedac">
+                            </div>
+                            <p>
+                                <b>solved.ac</b><br>
+                                kevink1113
+                            </p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="footer_menu">
+            <ul class="footer_links">
+                <li id="copyright">© 2020 SangWon Kang All Rights Reserved.</li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Career">Career</a></li>
+                <li><a href="#Contacts">✆ Contacts</a></li>
+            </ul>
+        </div>
+           
+
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="레이어_2">
+        <path d="M128,32C128,14.339 113.661,0 96,0L32,0C14.339,0 0,14.339 0,32L0,96C0,113.661 14.339,128 32,128L96,128C113.661,128 128,113.661 128,96L128,32Z" style="fill:rgb(59,89,152);"/>
+        <rect x="32" y="32" width="64" height="64" style="fill:none;"/>
+        <g transform="matrix(1.9897,0,0,1.9897,-66.3801,-52.4057)">
+            <path d="M77.33,37.33L77.33,48L72,48C70.16,48 69.33,50.16 69.33,52L69.33,58.67L77.33,58.67L75.843,69.33L69.33,69.33L69.33,90.67L58.67,90.67L58.67,69.33L50.67,69.33L50.67,58.67L58.67,58.67L58.67,48C58.67,42.15 63.48,37.335 69.33,37.33L77.33,37.33Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
