@@ -39,7 +39,7 @@ a{
     background: rgba(0, 0, 0, 0.8);
 
 
-    -webkit-backdrop-filter: blur(8px);
+     -webkict-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
 
     /*----------------------------*/
@@ -174,8 +174,12 @@ body {
 
 
 .link-icon {
-    width: 100px;
+    width: calc(50px + 8vmin);
     -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+
+#insta {
+    width: calc(50px + 8vmin);
 }
 
 .title {
@@ -218,7 +222,7 @@ body {
 
 }
 a.link {
-    padding-right: 50px;
+    padding-right: 60px;
     color: black;
     text-decoration: none;
 }
@@ -239,9 +243,6 @@ a.link {
     vertical-align: top;
 }
 
-#insta {
-    width: 100px;
-}
 
 #About {
     text-shadow: 2px 2px 10px gray;
@@ -360,15 +361,22 @@ a.link {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 376px) {
     .links-container {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     .link-icon {
         width: 70px;
     }
     #insta {
         width: 70px;
+    }
+    .links-container p {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+
+        font-size: calc(5px + 0.7vmin);
     }
 }
 
@@ -384,13 +392,15 @@ a.link {
         margin-top: 5px;
         margin-left: 5px;
         margin-bottom: 15px;
+
+        font-size: calc(5px + 0.2vmin);
     }
 
     .link-icon {
-        width: 70px;
+        width: 60px;
     }
     #insta {
-        width: 70px;
+        width: 60px;
     }
     .mini_title {
         padding-bottom: 16px;
