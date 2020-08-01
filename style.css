@@ -176,6 +176,11 @@ body {
 .link-icon {
     width: calc(50px + 8vmin);
     -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    transition: transform .3s ease;
+}
+
+.link-icon:hover {
+    transform: scale(1.05);
 }
 
 #insta {
