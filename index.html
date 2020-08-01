@@ -7,12 +7,18 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
         <link rel="icon" href="./files/kevink1113.png">
         
-        <style>
-        </style>
-
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
     </head>
 
     <body>
+        <!-- AOS -->
+        <script> 
+            AOS.init(); 
+        </script>
+
         <div class="top_bar"><a href="index.html">⌘</a></div>
         <div class="top_menu">
             <ul class="top_links">
@@ -24,7 +30,7 @@
 
         <div class="main_text">
 
-            <div class="img" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url(./files/back4_3.png)">
+            <div class="img" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url(./files/back_p.jpg)">
                 <div class="section" id="About" style="min-height: 0;">
                         <div class= "text">
                             <div class="title" style="text-shadow: 0 0 0">Stay hungry.<br>Stay foolish.</div>
@@ -75,24 +81,31 @@
                 </div>
             </div>
 
-            <div class="img" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url(./files/macbook_flower_2.png)">
+            <div class="img" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),url(./files/macbook_flower_p.jpg)">
                 <div class="section" id="Career" style="text-shadow: 2px 2px 10px white; min-height: 0;">
                     <div class="text">
-                        <div class="mini_title">Career</div>
+                        <div data-aos="fade-up" data-aos-duration="1500" class="mini_title">Career</div>
+                        
+                        <div data-aos="fade-up" data-aos-duration="1500">
+                            <a href="http://dan-kook.sen.hs.kr/" target="_blank" title="단대부고 홈피" style="font-weight: 500">단국대학교사범대학부속고등학교</a><br>
+                            2016. 3 - 2019. 2<br><br>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="1500">
+                            <a href="http://cs.sogang.ac.kr" target="_blank" title="서강대학교 컴퓨터공학과 홈피" style="font-weight: 500">서강대학교 컴퓨터공학과</a> 학부과정<br>
+                            2019. 3 - 현재<br>
+                            4학기 이수 예정<br><br>
+                        </div>
 
-                        <a href="http://dan-kook.sen.hs.kr/" target="_blank" title="단대부고 홈피" style="font-weight: 500">단국대학교사범대학부속고등학교</a><br>
-                        2016. 3 - 2019. 2<br><br>
+                        <div data-aos="fade-up" data-aos-duration="1500">
+                            <a href="https://acm.sogang.ac.kr/" target="_blank" title="Sogang ICPC Team" style="font-weight: 500">Sogang ICPC Team</a> - 컴퓨터공학과 학부 소학회, 서강대학교<br>
+                            임원(총무), 2020. 1 - 현재<br>
+                            학회원, 2019. 3 - 현재<br><br>
+                        </div>
 
-                        <a href="http://cs.sogang.ac.kr" target="_blank" title="서강대학교 컴퓨터공학과 홈피" style="font-weight: 500">서강대학교 컴퓨터공학과</a> 학부과정<br>
-                        2019. 3 - 현재<br>
-                        4학기 이수 예정<br><br>
-
-                        <a href="https://acm.sogang.ac.kr/" target="_blank" title="Sogang ICPC Team" style="font-weight: 500">Sogang ICPC Team</a> - 컴퓨터공학과 학부 소학회, 서강대학교<br>
-                        임원(총무), 2020. 1 - 현재<br>
-                        학회원, 2019. 3 - 현재<br><br>
-
-                        <a href="http://release.sogang.ac.kr/" target="_blank" title="Release" style="font-weight: 500">Release</a> - 컴퓨터공학과 학부 소학회, 서강대학교<br>
-                        학회원, 2019. 9 - 현재<br>
+                        <div data-aos="fade-up" data-aos-duration="1500">
+                            <a href="http://release.sogang.ac.kr/" target="_blank" title="Release" style="font-weight: 500">Release</a> - 컴퓨터공학과 학부 소학회, 서강대학교<br>
+                            학회원, 2019. 9 - 현재<br>
+                        </div>
 
                     </div>
                 </div>
@@ -102,9 +115,10 @@
 
             <div class="section" id="Contacts" style="min-height: 0;">
                 <div class="text">
-                    <div class="mini_title">Contacts</div>
+                    <div data-aos="fade-up" data-aos-duration="1500" class="mini_title">Contacts</div>
                     <div class="links-container">
-                        <a data-name="kevink1113" data-domain="hanmail" data-tld="net" onclick="window.location.href = &#39;mailto:&#39; + this.dataset.name + &#39;@&#39; + this.dataset.domain + &#39;.&#39; + this.dataset.tld" class="link">
+                        
+                        <a data-aos="fade-up" data-aos-duration="1500" data-name="kevink1113" data-domain="hanmail" data-tld="net" onclick="window.location.href = &#39;mailto:&#39; + this.dataset.name + &#39;@&#39; + this.dataset.domain + &#39;.&#39; + this.dataset.tld" class="link">
                             <div class="link-icon">
                                 <img src="./files/mail.svg" alt="mail">
                             </div>
@@ -113,8 +127,10 @@
                                 kevink1113<br>@hanmail.net
                             </p>
                         </a>
+
+
                         
-                        <a href="https://kevink1113.tistory.com/" class="link" target="_blank">
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://kevink1113.tistory.com/" class="link" target="_blank">
                             <div class="link-icon">
                                 <img src="./files/blog_2.svg" alt="Blog">
                             </div>
@@ -124,7 +140,7 @@
                             </p>
                         </a>
 
-                        <a href="https://www.facebook.com/kevink1113" class="link" target="_blank">
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://www.facebook.com/kevink1113" class="link" target="_blank">
                             <div class="link-icon">
                                 <img src="./files/facebook.svg" alt="facebook">
                             </div>
@@ -134,7 +150,7 @@
                             </p>
                         </a>
 
-                        <a href="https://instagram.com/sangwon_1113" class="link" target="_blank">
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://instagram.com/sangwon_1113" class="link" target="_blank">
                             <div class="link-icon">
                                 <img src="./files/instagram.svg" alt="instagram" id="insta">
                             </div>
@@ -144,7 +160,7 @@
                             </p>
                         </a>
 
-                        <a href="https://github.com/kevink1113" class="link" target="_blank">
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://github.com/kevink1113" class="link" target="_blank">
                             <div class="link-icon">
                                 <img src="./files/github.svg" alt="github">
                             </div>
@@ -155,7 +171,7 @@
                         </a>
                         
                         
-                        <a href="https://www.acmicpc.net/user/kevink1113" class="link" target="_blank">
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://www.acmicpc.net/user/kevink1113" class="link" target="_blank">
                             <div class="link-icon">
                                 <img src="./files/boj.svg" alt="boj">
                             </div>
@@ -165,7 +181,7 @@
                             </p>
                         </a>
 
-                        <a href="https://solved.ac/profile/kevink1113" class="link" target="_blank">
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://solved.ac/profile/kevink1113" class="link" target="_blank">
                             <div class="link-icon">
                                 <img src="./files/solvedac.svg" alt="solvedac">
                             </div>
