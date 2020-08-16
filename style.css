@@ -4,6 +4,7 @@ html {
     -webkit-overflow-scrolling : touch;
     scroll-behavior: smooth;
     word-break: keep-all;
+    overflow-x: hidden;
 }
 a{
     color: black;
@@ -85,7 +86,7 @@ body {
 .img{
     position: relative;                                                         
     height: 100vh;
-    width: calc(100vw - 3rem);
+    width: calc(100vw - 2rem);
     background-size: cover;
     background-repeat:no-repeat;
 
@@ -97,7 +98,7 @@ body {
 .img2{
     position: relative;                                                         
     /*height: 100vh;*/
-    width: calc(100vw - 3rem);
+    width: calc(100vw - 2rem);
     background-size: cover;
     background-repeat:no-repeat;
 
