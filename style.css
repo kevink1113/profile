@@ -11,12 +11,10 @@ a{
 .top_bar a{
     color: rgb(212, 212, 212);
     text-decoration: none;
-
 }
 .top_menu a{
     color: rgb(212, 212, 212);
     text-decoration: none;
-
 }
 
 .b {
@@ -24,10 +22,7 @@ a{
 }
 
 .top_bar {
-    /*font-size: calc(10px + 1.4vmin);
-    font-size: 200%;*/
     font-size: 2rem;
-
 
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
@@ -37,7 +32,6 @@ a{
     padding: 0px;
 
     background: rgba(0, 0, 0, 0.8);
-
 
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
@@ -60,8 +54,6 @@ body {
     font-size: calc(10px + 0.7vmin);
 }
 
-
-
 .top_menu {
     position: fixed;
     top: 0px;
@@ -69,7 +61,6 @@ body {
     z-index: 1000;
     transition: top .3s ease, right .3s ease;
 }
-
 .top_menu .top_links li {
     position: relative;
     display: inline-block;
@@ -87,7 +78,6 @@ body {
     margin-top: 0.6rem;
     font-weight: 100;
 }
-
 .top_links {
     margin-top: 0px;
 }
@@ -95,7 +85,7 @@ body {
 .img{
     position: relative;                                                         
     height: 100vh;
-    width: calc(100vw - 2rem);
+    width: calc(100vw - 3rem);
     background-size: cover;
     background-repeat:no-repeat;
 
@@ -104,6 +94,17 @@ body {
     margin-right: 0px;
 }
 
+.img2{
+    position: relative;                                                         
+    /*height: 100vh;*/
+    width: calc(100vw - 3rem);
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    background-position: left;
+    padding-right: 0px;
+    margin-right: 0px;
+}
 
 .main_text {
     margin: 2rem;
@@ -122,22 +123,19 @@ body {
 }
 
 .mini_title {
-    font-size: calc(10px + 4vmin);;
+    font-size: calc(10px + 4vmin);
     padding-bottom: 2rem;
 
     font-weight: 900;
 }
 
-
 @keyframes fadeIn1 {
     0% {
         opacity: 0;
     }
-    
     70% {
         opacity: 1;
     }
-    
     100% {
         opacity: 1;
     }
@@ -172,7 +170,6 @@ body {
     }
 }
 
-
 .link-icon {
     width: calc(50px + 8vmin);
     -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
@@ -188,14 +185,8 @@ body {
 }
 
 .title {
-    /*font-size: calc(10px + 8vmin);
-    font-size: 5rem;
-    font-size: 400%;
-    font-size: 10vw;*/
-    
     font-size: calc(10px + 8vmin);
     font-weight: 900;
-
 
     animation-name: fadeIn1;
     animation-duration: 5s;
@@ -248,13 +239,9 @@ a.link {
     vertical-align: top;
 }
 
-
 #About {
     text-shadow: 2px 2px 10px gray;
 }
-
-
-
 
 .footer {
     font-size: 2rem;
@@ -264,8 +251,6 @@ a.link {
     margin: 0px;
     padding: 0px;
     background: rgba(0, 0, 0, 0.8);
-
-
     /*----------------------------*/
     top: 0px;
     padding-right: 10000px;
@@ -286,11 +271,11 @@ a.link {
     background: rgba(0, 0, 0, 0.8);
 
     color: white;
+    margin-top: -2rem;
 }
 #copyright {
     padding-right: calc(10px + 8vmin);
 }
-
 .footer_menu .footer_links li {
     position: relative;
     display: inline-block;
@@ -298,7 +283,6 @@ a.link {
     
     /*font-size: 0.9rem;*/
     font-size: calc(10px + 0.7vmin);
-
 
     letter-spacing: 0.2ch;
     margin-right: calc(10px + 1vmin);
@@ -308,17 +292,14 @@ a.link {
     margin-top: 0.6rem;
     font-weight: 100;
 
-
     margin-bottom: 0;
 }
-
 .footer_links {
     margin: 0;
     padding: 0;
 }
 .footer_links a {
     text-decoration: none;
-
     color: white;
 }
 
@@ -332,12 +313,23 @@ a.link {
     }
 }
 
-
 @media(max-width: 600px){
     .img {
         width: calc(100vw - 1rem);
     }
-
+    .img2{
+        position: relative;                                                         
+        /*height: 100vh;*/
+        width: calc(100vw - 1rem);
+        background-size: cover;
+        background-repeat:no-repeat;
+    
+        background-position: left;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    
+    
     .top_bar {
         padding-left: 1rem;
     }
@@ -364,6 +356,10 @@ a.link {
         margin-top: 0.5rem;
         font-weight: 100;
     }
+
+    .footer_menu {
+        margin-top: -1rem;
+    }
 }
 
 @media (max-width: 376px) {
@@ -384,7 +380,6 @@ a.link {
         font-size: calc(5px + 0.7vmin);
     }
 }
-
 
 @media (max-height: 530px) {
     #stay_kr {
